@@ -73,7 +73,7 @@ div p {
   color: var(--secondary-color);
 }
 .project-description {
-  padding: 90px 60px;
+  padding: 100px 60px;
 }
 
 @media (max-width: 900px) {
