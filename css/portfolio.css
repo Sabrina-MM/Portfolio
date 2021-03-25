@@ -45,31 +45,37 @@
 .btn-hero:hover {
   color: var(--link-hover-color);
 }
-.about-hero {
-  padding: 120px 20px;
+.content-hero {
+  padding: 160px 20px;
 }
 
-.about-hero h1 {
+.content-hero h1 {
   font-family: var(--primary-font-family);
   font-size: 64px;
   font-weight: bold;
 }
 
-.about-hero h2 {
+.content-hero h2 {
   font-family: var(--secondary-font-family);
   font-size: 18px;
   color: var(--primary-color);
   font-weight: bold;
 }
-
-.about-hero p {
+.content-hero h3 {
   font-family: var(--secondary-font-family);
-  font-size: 16px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.content-hero p {
+  font-family: var(--secondary-font-family);
+  font-size: 14px;
   color: var(--secondary-color);
 }
-.about-hero img {
+.content-hero img {
   border-radius: 20px;
   margin-top: 10px;
+  padding: 5px;
 }
 
 .btn-project-app:hover {
@@ -96,7 +102,7 @@
   padding: 100px 60px;
 }
 
-.about-me-section {
+.content-section {
   margin: 30px;
 }
 
@@ -127,18 +133,18 @@ div p {
     text-align: center;
     padding: 23px 20px;
   }
-  .about-hero {
+  .content-hero {
     text-align: center;
   }
 }
-@media (max-width: 535px) {
-  .about-hero {
-    padding: 20px 0px;
+@media (max-width: 766px) {
+  .content-hero {
+    padding: 50px;
   }
-  .about-hero h1 {
+  .content-hero h1 {
     font-size: 45px;
   }
-  .about-hero h2 {
+  .content-hero h2 {
     font-size: 15px;
   }
 }
