@@ -3,6 +3,7 @@
   --secondary-font-family: "Poppins", sans-serif;
   --main-btn-bg: #249a99;
   --main-bg-color: #fdece570;
+  --primary-color: rgba(39, 33, 66, 1);
   --secondary-color: rgba(0, 0, 0, 0.589);
   --link-hover-color: black;
 }
@@ -10,7 +11,7 @@
 .hero {
   text-align: center;
   background: var(--main-bg-color);
-  padding: 160px 0px;
+  padding: 160px 20px;
   line-height: 30px;
 }
 .hero p {
@@ -18,7 +19,7 @@
   font-size: 36px;
   font-family: var(--secondary-font-family);
   font-weight: bold;
-  color: rgba(39, 33, 66, 1);
+  color: var(--primary-color);
 }
 .hero h1 {
   font-size: 90px;
@@ -31,7 +32,7 @@
   font-size: 24px;
   color: var(--secondary-color);
 }
-.btn-contact {
+.btn-hero {
   text-align: center;
   width: 100%;
   background: var(--main-btn-bg);
@@ -40,12 +41,41 @@
   text-decoration: none;
   color: cornsilk;
 }
-.btn-contact:hover {
+
+.btn-hero:hover {
   color: var(--link-hover-color);
 }
-.btn-weather-app:hover {
+.about-hero {
+  padding: 120px 20px;
+}
+
+.about-hero h1 {
+  font-family: var(--primary-font-family);
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.about-hero h2 {
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.about-hero p {
+  font-family: var(--secondary-font-family);
+  font-size: 16px;
+  color: var(--secondary-color);
+}
+.about-hero img {
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.btn-project-app:hover {
   color: var(--link-hover-color);
 }
+
 .btn-project-app {
   border: 1px solid var(--main-btn-bg);
   text-decoration: none;
@@ -55,10 +85,19 @@
   font-size: 16px;
   font-family: var(--secondary-font-family);
 }
+
 .short-introduction {
   font-family: var(--secondary-font-family);
   padding: 50px;
   margin: 0px;
+}
+
+.project-description {
+  padding: 100px 60px;
+}
+
+.about-me-section {
+  margin: 30px;
 }
 
 div h2 {
@@ -71,9 +110,6 @@ div p {
   font-size: 16px;
   font-family: var(--secondary-font-family);
   color: var(--secondary-color);
-}
-.project-description {
-  padding: 100px 60px;
 }
 
 @media (max-width: 900px) {
@@ -90,5 +126,19 @@ div p {
   .project-description {
     text-align: center;
     padding: 23px 20px;
+  }
+  .about-hero {
+    text-align: center;
+  }
+}
+@media (max-width: 535px) {
+  .about-hero {
+    padding: 20px 0px;
+  }
+  .about-hero h1 {
+    font-size: 45px;
+  }
+  .about-hero h2 {
+    font-size: 15px;
   }
 }
