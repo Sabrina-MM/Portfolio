@@ -115,6 +115,28 @@ div p {
   font-family: var(--secondary-font-family);
   color: var(--secondary-color);
 }
+div ul {
+  list-style: none;
+}
+
+ul a {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  font-family: var(--secondary-font-family);
+  font-weight: bold;
+}
+ul a:hover {
+  color: var(--main-btn-bg) !important;
+}
+.logo {
+  max-height: 38px;
+}
+li .active {
+  color: var(--main-btn-bg) !important;
+}
 
 @media (max-width: 900px) {
   .hero h1 {
