@@ -128,14 +128,12 @@ ul a {
   font-family: var(--secondary-font-family);
   font-weight: bold;
 }
-ul a:hover {
+ul a:hover,
+li .active {
   color: var(--main-btn-bg) !important;
 }
 .logo {
   max-height: 38px;
-}
-li .active {
-  color: var(--main-btn-bg) !important;
 }
 
 @media (max-width: 900px) {
