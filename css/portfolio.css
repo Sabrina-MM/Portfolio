@@ -145,7 +145,7 @@ footer .contact-box {
   padding: 30px 120px;
   border-radius: 20px;
 }
-footer h4 {
+footer h3 {
   font-size: 48px;
   font-family: var(--primary-font-family);
   font-weight: bold;
@@ -199,9 +199,13 @@ footer .social-links a:hover {
   }
   .content-hero {
     text-align: center;
+    padding: 100px 20px 10px;
   }
   footer .email-link {
     font-size: 18px;
+  }
+  footer .btn-hero {
+    display: flex;
   }
 }
 @media (max-width: 766px) {
