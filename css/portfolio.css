@@ -7,7 +7,7 @@
   --secondary-color: rgba(0, 0, 0, 0.589);
   --link-hover-color: black;
 }
-.container {
+nav .container {
   padding: 15px 0px;
 }
 nav ul {
